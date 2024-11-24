@@ -3,13 +3,11 @@ Here we construct a PINN, using the PyTorch framework, to predict tumour growth 
 
 # Background on PINNs
 
-Originally proposed by Raissi et al [1], PINNs can embed physical information (usually in the form in PDEs) into the loss function 
+Originally proposed by Raissi et al [1], PINNs can embed physical information (usually in the form in PDEs) into the loss function. We can then calculate the total loss as a linear combination of the physics loss and data loss. This helps the network make predictions with the guidance of the patterns of the physical system at hand.
 
 # Usefulness in tumour growth prediction
 
-
-
-
+Clinical tumour growth data is often very noisy and small. This causes networks to struggle to find the underlying pattern in the growth. PINNs allow us to incorporate the governing physical information of the growth process (e.g. though a PDE that measures the rate of change of volume), guiding the network to make predictions according to the dynamics of tumour growth.
 
 
 # Mathematical modelling
@@ -28,7 +26,7 @@ where
 
 Th
 
-# Synthetic data visualisation
+# Synthetic data
 
 We will generate data that will follow a modified Gompertz function with Gaussian noise. Adding noise is essential to determine robustness and ensure it resembles realistic clinical data.
 
