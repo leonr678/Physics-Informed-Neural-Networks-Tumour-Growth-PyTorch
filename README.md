@@ -14,7 +14,7 @@ Clinical tumour growth data is often very noisy and small. This causes networks 
 
 # Mathematical modelling
 
-The PINN will embed the Gompertz PDE, which is a particular case of the Generalised Logistic equation:
+The PINN will embed the Gompertz ODE, which is a particular case of the Generalised Logistic equation:
 
 dV/dt = $\alpha$ ln(K/V)V
 
