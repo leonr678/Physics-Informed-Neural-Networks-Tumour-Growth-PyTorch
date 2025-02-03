@@ -31,6 +31,10 @@ We will generate data that will follow a modified Gompertz function with Gaussia
 - ***Matplotlib (for data visualisation)***  
 - ***Jupiter Notebook (software/environment)***
 
+# Usage
+
+Open the code in Jupiter Notebook. After making sure all of the necessary libraries are installed, run the file. Adjust noise and model as needed.
+
 # Future improvements
 
 - ***Use stochastic modeling for more realistic growth***
