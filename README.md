@@ -38,7 +38,7 @@ Open the code in Jupiter Notebook. After making sure all of the necessary librar
 # Future improvements
 
 - ***Use stochastic modeling for more realistic growth***
-- ***Test multiple models on PINN, such as exponential growth***
+- ***Test multiple tumour growth models on PINN, such as exponential growth***
 - ***Simulated treatment intervention*** 
 
 # References
